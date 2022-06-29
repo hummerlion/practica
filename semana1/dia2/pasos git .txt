@@ -4,11 +4,16 @@
  ----------------------------------------------------------
 
  
- git init       // para iniciar un proyecto  con Git solo se hace una ves crea una carpeta oculta  .git
- git add .       // para agregar todos los archivos a la memoria local de GIT
- git add  semana1    //  solo agrega semana1 no las demas
- 
+        git init       // para iniciar un proyecto  con Git solo se hace una ves crea una carpeta oculta  .git
+1        git add .       // para agregar todos los archivos a la memoria local de GIT
+        git add  semana1    //  solo agrega semana1 no las demas
+2        git status  // para listar los archivos que se van subir (track)
+3        git commit -m "nombre del punto a guardar"  // "nombre del punto a guardar"  = nombre del commit
+        git log  // para ver el historial de los commit
 
+
+
+ 
 
 
 -------------------------------------------------------------
