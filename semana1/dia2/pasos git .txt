@@ -1,0 +1,29 @@
+ paso 1 = git config --list   //  listar credenciales en mi pc
+ paso 2 = git config --global user.name "hummerlion"(nombre de ususario de github)  para vincular el  username  con github
+ paso 3 = git config --global user.mail "hummerlion@gmail.com"(correo electronico del github) para vincular el email
+ ----------------------------------------------------------
+
+ 
+ git init       // para iniciar un proyecto  con Git solo se hace una ves crea una carpeta oculta  .git
+ git add .       // para agregar todos los archivos a la memoria local de GIT
+ git add  semana1    //  solo agrega semana1 no las demas
+ 
+
+
+
+-------------------------------------------------------------
+ master  -  main  //  son lo  mismo, es la rama  principal 
+------------------------------------------------------------
+ comandos
+
+ sudo cd Documents/Codigo  //  entrar modo admin + pass de pc
+ mkdir semana1 // crea una  carpeta (nombre de la carpeta semana1)
+ cd semana1 // entrar a la carpeta ( para entrar a la carpeta semana1)
+ cd ..  // (retroceder una carpeta)
+ clear   // (limpiar pantalla)
+ ls -a  // muestra las carpetas contenedoras
+ start . // abre la carpeta contenedora  // open ./ en  mac
+ ll -a  // muestra archivos ocultos
+
+
+
