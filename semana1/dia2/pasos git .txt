@@ -1,15 +1,31 @@
  paso 1 = git config --list   //  listar credenciales en mi pc
  paso 2 = git config --global user.name "hummerlion"(nombre de ususario de github)  para vincular el  username  con github
- paso 3 = git config --global user.mail "hummerlion@gmail.com"(correo electronico del github) para vincular el email
+ paso 3 = git config --global user.email "hummerlion@gmail.com"(correo electronico del github) para vincular el email
  ----------------------------------------------------------
 
  
-        git init       // para iniciar un proyecto  con Git solo se hace una ves crea una carpeta oculta  .git
-1        git add .       // para agregar todos los archivos a la memoria local de GIT
-        git add  semana1    //  solo agrega semana1 no las demas
-2        git status  // para listar los archivos que se van subir (track)
-3        git commit -m "nombre del punto a guardar"  // "nombre del punto a guardar"  = nombre del commit
-        git log  // para ver el historial de los commit
+             git init       // para iniciar un proyecto  con Git solo se hace una ves crea una carpeta oculta  .git
+orden
+1            git add .       // para agregar todos los archivos a la memoria local de GIT
+1.1          git add  semana1    //  solo agrega semana1 no las demas
+2            git status     // para listar los archivos que se van subir (track)
+3            git commit -m "nombre del punto a guardar"     // "nombre del punto a guardar"  = nombre del commit
+             git log        // para ver el historial de los commit
+             git branch -m main     //  para cambiar de  de (master) a (main)
+4            git push origin main   // para subir los cambios a la nube ( master o main)
+
+------------------------------------------------------------
+
+para  conectar con github
+
+entrar a github.com -> logearse -> repositories -> new
+crear el nombre del repositorio -> elegir publico o privado-> crear nuevo repositorio
+copiar el  "git remote add origin https.......git" del navegador->
+pegar en el terminal gitbash (master o main ) ->
+usar el comando " git push origin main " o " git push origin master"  segun corresponda , de preferncia cambiar a main 
+
+
+
 
 
 
