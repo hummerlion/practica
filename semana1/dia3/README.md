@@ -1,26 +1,26 @@
-*Los archivos que tengan la extencion .md son  de tipo Mark down,
- este archivo permite  tener una documentacion de nuestro proyecto, por que al llamarse  README.md github.com lo reconoce como archivo de
- documentacion lo  cual hace que se muestre en la pagina inicial
+* Los archivos que tengan la extencion .md son  de tipo Mark down,
+    este archivo permite  tener una documentacion de nuestro proyecto, por que al llamarse  README.md github.com lo reconoce como archivo de
+    documentacion lo  cual hace que se muestre en la pagina inicial
  
  ```
  git init
  ```
- este comenado solo se hace una vez por  proyecto,  sirve para  inicializar nuetro proyecto  con ``.git``
- 👁️crea una carpeta oculta llamada .git
+ - este comenado solo se hace una vez por  proyecto,  sirve para  inicializar nuetro proyecto  con ``.git``
+ 👁️ crea una carpeta oculta llamada .git
  
  
  ``
  git status
  ``
- -para poder listar y ver los aarchivos pestan listos para subir
- -en caso los archivos no esten listos se veran de color rojo
- -y cuando lo esten sera de color verde
+ - para poder listar y ver los aarchivos pestan listos para subir
+ - en caso los archivos no esten listos se veran de color rojo
+ - y cuando lo esten sera de color verde
  
  ```
  git add . 
  git add nombre_del_archivo
  ```
- se encarga de  agregar lsoa rchivoa a la memoria de GIt  es decir los guarda en un stash
+-  se encarga de  agregar lsoa rchivoa a la memoria de GIt  es decir los guarda en un stash
  
  ```
  git commit -m "comentario"
@@ -34,6 +34,16 @@
  git push origin master
  ```
  
- sireve para  poder subir los cambios a nuestro repositorio en la nube, en este caso  github
+ - sireve para  poder subir los cambios a nuestro repositorio en la nube, en este caso  github
+
+
+ ```  
+ git pull origin main
+```
+
+ - se encarga de descargar los cambios de nuestro repositorio en la nube,  en este  caso github.com
+
+
+
  
   
