@@ -74,7 +74,12 @@ git clone url_de_github.com
   git restore --stage nombre_del_file
 ```
  - sirve para  ignorar un file  y no subirlo a la nube
- 
+
+ ```
   
+  git merge nombre_del_branch
+ ```
+ - sirve para juntar-unir los cambios entre branch  o ramas 
+ - :eye: tiene que estar en main o  master , 
 
   
