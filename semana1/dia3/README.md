@@ -47,10 +47,29 @@
 ```
 git clone url_de_github.com
 ```
- la forma en la cual yo puedo descargar proyectos  desde cualqueir computadora  
- este comando me crea una carpeta con el nombre del repositorio
+ - la forma en la cual yo puedo descargar proyectos  desde cualqueir computadora  
+  este comando me crea una carpeta con el nombre del repositorio
 
 
 
- 
+ ```  
+ git branch
+ ```
+
+ - sirve para poder listar lo branch que tengo localmente y  me dicen en cual me enuentro actualmente
+
+
+ ```
+ git checkout -b  nombre_del_branch
+ ```
+
+ - sirve para crear un branch  y poder trabjar en el 
+
+ ``` 
+ git checkout  nombre_del_branch
+ ```
+  - sirve para  moverse entre  branch  o ramas
+
+  
+
   
