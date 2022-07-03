@@ -44,6 +44,13 @@
  - se encarga de descargar los cambios de nuestro repositorio en la nube,  en este  caso github.com
 
 
+```
+git clone url_de_github.com
+```
+ la forma en la cual yo puedo descargar proyectos  desde cualqueir computadora  
+ este comando me crea una carpeta con el nombre del repositorio
+
+
 
  
   
