@@ -70,6 +70,11 @@ git clone url_de_github.com
  ```
   - sirve para  moverse entre  branch  o ramas
 
+  ```
+  git restore --stage nombre_del_file
+```
+ - sirve para  ignorar un file  y no subirlo a la nube
+ 
   
 
   
